@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+
+        <TextView
+            android:id="@+id/tvWelcome"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Welcome"
+            android:textSize="20dp"
+            android:textAlignment="center"/>
+
+        <TextView
+            android:id="@+id/tvFoodList"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textStyle="bold"
+            android:text="FoodList"
+            android:textSize="20dp"
+            android:padding="5dp"
+            android:layout_below="@id/tvWelcome"/>
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/rvFoodList"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_below="@id/tvFoodList"
+            android:layout_above="@id/buttonTambahFoodList">
+
+        </android.support.v7.widget.RecyclerView>
+
+
+
+
+        <Button
+            android:id="@+id/buttonTambahFoodList"
+            android:text="Tambah"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"/>
+
+
+
+</RelativeLayout>

@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".TambahActivity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+
+        <EditText
+            android:id="@+id/edtEditNama"
+            android:hint="Nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+        <EditText
+            android:id="@+id/edtEditWaktu"
+            android:hint="Waktu"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+        <EditText
+            android:id="@+id/edtEditKeterangan"
+            android:hint="Keterangan"
+            android:gravity="top"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:inputType="text|textMultiLine"
+            android:layout_margin="5dp"/>
+
+        <Button
+            android:id="@+id/buttonUpdateImage"
+            android:text="Upload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+
+        <ImageView
+            android:id="@+id/imgUpdateFoodList"
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:layout_margin="5dp"/>
+
+
+        <Button
+            android:id="@+id/buttonUpdateData"
+            android:text="Update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"/>
+
+
+
+    </LinearLayout>
+
+    <ProgressBar
+        android:layout_centerVertical="true"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/PBUpdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>

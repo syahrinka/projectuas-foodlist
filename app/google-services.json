@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "13037942695",
+    "firebase_url": "https://foodlist-e94e9.firebaseio.com",
+    "project_id": "foodlist-e94e9",
+    "storage_bucket": "foodlist-e94e9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:13037942695:android:d684511ccec394a8",
+        "android_client_info": {
+          "package_name": "com.syahrinkusumaa.foodlist"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "13037942695-l805b1n9nigvi16sc2qbf1cu1vrtcgem.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.syahrinkusumaa.foodlist",
+            "certificate_hash": "bdda99f5c7a77ca031eb5470bfbb97674b228005"
+          }
+        },
+        {
+          "client_id": "13037942695-hb6c9q41jutuq4cipktsarh5khbf78vk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAFQlMLNeBRzfQvAOvVpgeNYhPovXf1msg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "13037942695-hb6c9q41jutuq4cipktsarh5khbf78vk.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+    <TextView
+        android:id="@+id/tvBiodata"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="Biodata"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_below="@+id/tvBiodata"
+        android:id="@+id/linerV"
+        android:layout_centerInParent="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvNm"
+                android:layout_below="@id/tvBiodata"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_toLeftOf="@id/tvProfileNama"
+                android:textStyle="bold"
+                android:layout_marginRight="40dp"
+                android:textSize="15dp"
+                android:text="Nama"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvProfileNama"
+                android:layout_below="@id/tvBiodata"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="15dp"
+                android:text="Jon sdasdsadas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvEm"
+                android:layout_below="@id/tvNm"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_toLeftOf="@id/tvProfileEmail"
+                android:textStyle="bold"
+                android:layout_marginRight="43dp"
+                android:textSize="15dp"
+                android:text="Email"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvProfileEmail"
+                android:layout_below="@id/tvProfileNama"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="15dp"
+                android:text="email@yahoo"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvPh"
+                android:layout_below="@id/tvEm"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_toLeftOf="@id/tvProfileEmail"
+                android:textStyle="bold"
+                android:layout_marginRight="10dp"
+                android:textSize="15dp"
+                android:text="Telephone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+            <TextView
+                android:id="@+id/tvProfilePhone"
+                android:layout_below="@id/tvProfileEmail"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:textSize="15dp"
+                android:text="0987777"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/buttonLogout"
+        android:text="Logout"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/linerV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+</RelativeLayout>
